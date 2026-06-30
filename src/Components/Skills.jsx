@@ -71,7 +71,7 @@ export default function Skills({ theme, themeClasses }) {
             viewport={{ once: true, margin: "-100px" }}
             variants={staggerContainer}
           >
-            <h3 className={`text-lg font-bold mb-6 ${themeClasses.textTitle} border-l-4 border-emerald-500 pl-3`}>
+            <h3 className={`text-lg font-bold mb-6 ${themeClasses.textTitle} text-center border-l-0 border-b-2 border-emerald-500 pb-2`}>
               {category.title}
             </h3>
             <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-6 justify-items-center">

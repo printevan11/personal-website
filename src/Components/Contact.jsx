@@ -74,13 +74,13 @@ export default function Contact({ theme, themeClasses }) {
           </p>
           <div className="flex justify-center gap-6">
             <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-500 transition-colors w-8 h-8">
-              <img src="src/assets/github.png" alt="Github" className="w-full h-full object-contain" />
+              <img src="/assets/github.png" alt="Github" className="w-full h-full object-contain" />
             </a>
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-500 transition-colors w-8 h-8">
-              <img src="src/assets/facebook.webp" alt="Facebook" className="w-full h-full object-contain" />
+              <img src="/assets/facebook.webp" alt="Facebook" className="w-full h-full object-contain" />
             </a>
             <a href="https://figma.com" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-500 transition-colors w-8 h-8">
-              <img src="src/assets/figma-1.png" alt="Figma" className="w-full h-full object-contain" />
+              <img src="/assets/figma-1.png" alt="Figma" className="w-full h-full object-contain" />
             </a>
           </div>
         </div>

@@ -54,10 +54,10 @@ export default function Experience({ theme, themeClasses }) {
               {/* Brand Logo column */}
               <div className="w-28 shrink-0 flex flex-col items-center gap-2">
                 {exp.company === 'Nerve Technologies' && (
-                  <img src="src/assets/nerve-logo.png" alt="Nerve" className="w-20 h-auto object-contain" />
+                  <img src="/assets/nerve-logo.png" alt="Nerve" className="w-20 h-auto object-contain" />
                 )}
                 {exp.company === 'Knowles Training Institute Singapore' && (
-                  <img src="src/assets/knowles.png" alt="Knowles" className="w-20 h-auto object-contain" />
+                  <img src="/assets/knowles.png" alt="Knowles" className="w-20 h-auto object-contain" />
                 )}
                 {exp.company === 'Deal Flow Media' && (
                   <span className="text-emerald-500 font-extrabold text-xl">DFM</span>

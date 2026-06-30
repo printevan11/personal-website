@@ -110,13 +110,13 @@ export default function Front() {
           {/* Social Platforms links matching layout */}
           <div className="flex gap-4 pt-2">
             <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-500 transition-colors w-8 h-8">
-              <img src="src/assets/github.png" alt="Github" className="w-full h-full object-contain" />
+              <img src="/assets/github.png" alt="Github" className="w-full h-full object-contain" />
             </a>
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-500 transition-colors w-8 h-8">
-              <img src="src/assets/facebook.webp" alt="Facebook" className="w-full h-full object-contain" />
+              <img src="/assets/facebook.webp" alt="Facebook" className="w-full h-full object-contain" />
             </a>
             <a href="https://figma.com" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-500 transition-colors w-8 h-8">
-              <img src="src/assets/figma-1.png" alt="Figma" className="w-full h-full object-contain" />
+              <img src="/assets/figma-1.png" alt="Figma" className="w-full h-full object-contain" />
             </a>
           </div>
         </motion.div>
@@ -134,7 +134,7 @@ export default function Front() {
 
           {/* Main Profile Photo */}
           <img
-            src="src/assets/Profile.jpg"
+            src="/assets/Profile.jpg"
             alt="Evan"
             className="w-full h-full object-cover shadow-2xl relative z-10"
           />

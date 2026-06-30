@@ -16,7 +16,7 @@ export default function About({ theme, themeClasses }) {
             <div className="relative w-72 h-96">
               <div className={`absolute bottom-[-16px] left-[-16px] w-full h-full border-8 ${themeClasses.profileOffset} -z-20`} />
               <img
-                src="src/assets/Profile-1.jpg"
+                src="/assets/Profile-1.jpg"
                 alt="About Sagar"
                 className={`w-full h-full object-cover border-8 ${themeClasses.imgBorder} shadow-2xl relative z-10`}
               />

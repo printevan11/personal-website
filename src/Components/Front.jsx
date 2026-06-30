@@ -134,7 +134,7 @@ export default function Front() {
 
           {/* Main Profile Photo */}
           <img
-            src="/assets/Profile.jpg"
+            src="/assets/profile.jpg"
             alt="Evan"
             className="w-full h-full object-cover shadow-2xl relative z-10"
           />

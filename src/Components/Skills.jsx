@@ -30,7 +30,7 @@ export default function Skills({ theme, themeClasses }) {
     { name: 'Vite', img: '/assets/vite-2.png' },
     { name: 'Figma', img: '/assets/figma.png' },
     { name: 'Zeplin', img: '/assets/zeplin.png' },
-    { name: 'Git', img: '/assets/Git.png' }
+    { name: 'Git', img: '/assets/git.png' }
   ];
 
   return (

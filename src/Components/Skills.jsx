@@ -15,22 +15,22 @@ export default function Skills({ theme, themeClasses }) {
   };
 
   const skills = [
-    { name: 'HTML', img: 'src/assets/html.png' },
-    { name: 'CSS', img: 'src/assets/css.jpg' },
-    { name: 'JavaScript', img: 'src/assets/javascript.jpg' },
-    { name: 'jQuery', img: 'src/assets/jquery.png' },
-    { name: 'React', img: 'src/assets/react-1.png' },
-    { name: 'Vue', img: 'src/assets/vue.png' },
-    { name: 'Bootstrap', img: 'src/assets/boot.webp' },
-    { name: 'Node.js', img: 'src/assets/node.png' },
-    { name: 'Express', img: 'src/assets/express.png' },
-    { name: 'PostgreSQL', img: 'src/assets/postres.jpg' },
-    { name: 'MongoDB', img: 'src/assets/mongo.png' },
-    { name: 'Tailwind CSS', img: 'src/assets/tailwind.png' },
-    { name: 'Vite', img: 'src/assets/vite-2.png' },
-    { name: 'Figma', img: 'src/assets/figma.png' },
-    { name: 'Zeplin', img: 'src/assets/zeplin.png' },
-    { name: 'Git', img: 'src/assets/Git.png' }
+    { name: 'HTML', img: '/assets/html.png' },
+    { name: 'CSS', img: '/assets/css.jpg' },
+    { name: 'JavaScript', img: '/assets/javascript.jpg' },
+    { name: 'jQuery', img: '/assets/jquery.png' },
+    { name: 'React', img: '/assets/react-1.png' },
+    { name: 'Vue', img: '/assets/vue.png' },
+    { name: 'Bootstrap', img: '/assets/boot.webp' },
+    { name: 'Node.js', img: '/assets/node.png' },
+    { name: 'Express', img: '/assets/express.png' },
+    { name: 'PostgreSQL', img: '/assets/postres.jpg' },
+    { name: 'MongoDB', img: '/assets/mongo.png' },
+    { name: 'Tailwind CSS', img: '/assets/tailwind.png' },
+    { name: 'Vite', img: '/assets/vite-2.png' },
+    { name: 'Figma', img: '/assets/figma.png' },
+    { name: 'Zeplin', img: '/assets/zeplin.png' },
+    { name: 'Git', img: '/assets/Git.png' }
   ];
 
   return (

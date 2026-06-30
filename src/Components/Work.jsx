@@ -7,7 +7,7 @@ export default function Work({ theme, themeClasses }) {
       id: 1,
       title: 'Modimal - Women Clothing',
       desc: 'A platform for speed dating or micro-investing. With an intuitive interface, deep integrations, and advanced analytics, it is the only tool you need to stay on top of your portfolio.',
-      img: 'src/assets/modimal.png',
+      img: '/assets/modimal.png',
       tags: ['React', 'HTML', 'CSS', 'JavaScript', 'Tailwind CSS', 'Figma', 'Vite'  ],
       link: 'https://modimalclothing.vercel.app/'
     },
@@ -15,7 +15,7 @@ export default function Work({ theme, themeClasses }) {
       id: 2,
       title: 'Pet-Grooming Website',
       desc: 'A sleek visual workspace for distributed software teams to plan, collaborate, and execute roadmap milestones seamlessly.',
-      img: 'src/assets/pet.png',
+      img: '/assets/pet.png',
       tags: ['React', 'HTML', 'CSS', 'JavaScript', 'Tailwind CSS', 'Figma', 'Vite'],
       link: 'https://petgroomingwebsite.vercel.app/'
     },
@@ -23,7 +23,7 @@ export default function Work({ theme, themeClasses }) {
       id: 3,
       title: 'Tabernacle - Worship Tool',
       desc: 'An automated compliance auditing software that helps modern early-stage startups get SOC-2 certified in weeks instead of months.',
-      img: 'src/assets/tabernacle.png',
+      img: '/assets/tabernacle.png',
       tags: ['React', 'Typescript', 'Tailwindcss', 'Nest.js', 'PostgreSQL', 'Docker'],
       link: 'https://printevan11.github.io/tabernacleworshiptoolv4/'
     },
@@ -32,7 +32,7 @@ export default function Work({ theme, themeClasses }) {
       id: 4,
       title: 'NailCheck: An Android-Based Mobile Application for Detecting Fingernail Abnormalities Through Digital Image Processing Using Convolutional Neural Network Algorithm',
       desc: 'An automated compliance auditing software that helps modern early-stage startups get SOC-2 certified in weeks instead of months.',
-      img: 'src/assets/nail.jpg',
+      img: '/assets/nail.jpg',
       tags: ['React', 'Typescript', 'Tailwindcss', 'Nest.js', 'PostgreSQL', 'Docker'],
       link: 'https://drive.google.com/file/d/1gfOZRB9-rfD-cX_ydSWPZ6m1KNoJSHhX/view'
     },
@@ -42,7 +42,7 @@ export default function Work({ theme, themeClasses }) {
       id: 5 ,
       title: 'Accident / Incident Report - MDRRMO Sariaya',
       desc: 'An automated compliance auditing software that helps modern early-stage startups get SOC-2 certified in weeks instead of months.',
-      img: 'src/assets/mddrmo.png',
+      img: '/assets/mddrmo.png',
       tags: ['React', 'HTML', 'CSS', 'Java Script', 'Tailwindcss', 'Node.js', 'MongoDB', 'Express'],
       link: 'https://incident-report-system.vercel.app/'
     }

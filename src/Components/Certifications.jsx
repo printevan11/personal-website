@@ -6,25 +6,25 @@ export default function Certifications({ theme, themeClasses }) {
       title: 'Knowles Training Institute Internship',
       issuer: 'Knowles',
       date: '2025',
-      image: 'src/assets/cert1.jpg'
+      image: '/assets/cert1.jpg'
     },
     {
       title: 'UI Interface Design - TESDA',
       issuer: 'TESDA',
       date: '2025',
-      image: 'src/assets/cert2.jpg'
+      image: '/assets/cert2.jpg'
     },
     {
       title: 'Introduction to Java',
       issuer: 'SoloLearn',
       date: '2024',
-      image: 'src/assets/cert3.jpg'
+      image: '/assets/cert3.jpg'
     },
     {
       title: 'Introduction to HTML',
       issuer: 'SoloLearn',
       date: '2024',
-      image: 'src/assets/cert4.jpg'
+      image: '/assets/cert4.jpg'
     }
   ];
 

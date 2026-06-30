@@ -62,7 +62,7 @@ export default function Skills({ theme, themeClasses }) {
         <p className={`${themeClasses.textMuted} text-base`}>The skills, technologies and tools I am good at:</p>
       </div>
 
-      <div className="space-y-12">
+      <div className="space-y-10">
         {categories.map((category, catIndex) => (
           <motion.div
             key={category.title}
@@ -70,26 +70,27 @@ export default function Skills({ theme, themeClasses }) {
             whileInView="visible"
             viewport={{ once: true, margin: "-100px" }}
             variants={staggerContainer}
+            className={`p-6 rounded-2xl ${themeClasses.card} border ${themeClasses.border}`}
           >
-            <h3 className={`text-lg font-bold mb-6 ${themeClasses.textTitle} text-center border-l-0 border-b-2 border-emerald-500 pb-2`}>
+            <h3 className={`text-base font-semibold mb-5 ${themeClasses.textTitle} text-center text-emerald-500 uppercase tracking-wider`}>
               {category.title}
             </h3>
-            <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-6 justify-items-center">
+            <div className="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-4 gap-4 justify-items-center">
               {category.skills.map((skill) => (
                 <motion.div
                   key={skill.name}
                   variants={skillItemAnim}
-                  whileHover={{ y: -6, scale: 1.05 }}
-                  className="flex flex-col items-center gap-3"
+                  whileHover={{ scale: 1.1 }}
+                  className="flex flex-col items-center gap-2"
                 >
-                  <div className={`w-16 h-16 rounded-xl flex items-center justify-center p-2 shadow-md border ${themeClasses.border} bg-transparent transition-colors duration-300`}>
+                  <div className={`w-14 h-14 rounded-lg flex items-center justify-center p-1 ${themeClasses.card} border ${themeClasses.border} shadow-sm`}>
                     <img
                       src={skill.img}
                       alt={skill.name}
                       className="w-full h-full object-contain"
                     />
                   </div>
-                  <span className="text-xs font-semibold tracking-wide">{skill.name}</span>
+                  <span className="text-xs font-medium">{skill.name}</span>
                 </motion.div>
               ))}
             </div>
